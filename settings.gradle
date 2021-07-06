@@ -1,0 +1,2 @@
+rootProject.name = "Sailor News"
+include ':app'
