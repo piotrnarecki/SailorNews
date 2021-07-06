@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/news_nav_graph"
+    app:startDestination="@id/breakingNewsFragement">
+
+    <fragment
+        android:id="@+id/breakingNewsFragement"
+        android:name="pl.piotrnarecki.sailornews.ui.fragments.BreakingNewsFragement"
+        android:label="BreakingNewsFragement" >
+        <action
+            android:id="@+id/action_breakingNewsFragement_to_articleFragement"
+            app:destination="@id/articleFragement"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/searchNewsFragement"
+        android:name="pl.piotrnarecki.sailornews.ui.fragments.SearchNewsFragement"
+        android:label="SearchNewsFragement" >
+        <action
+            android:id="@+id/action_searchNewsFragement_to_articleFragement"
+            app:destination="@id/articleFragement"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/savedNewsFragement"
+        android:name="pl.piotrnarecki.sailornews.ui.fragments.SavedNewsFragement"
+        android:label="SavedNewsFragement" >
+        <action
+            android:id="@+id/action_savedNewsFragement_to_articleFragement"
+            app:destination="@id/articleFragement"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/articleFragement"
+        android:name="pl.piotrnarecki.sailornews.ui.fragments.ArticleFragement"
+        android:label="ArticleFragement" />
+</navigation>
