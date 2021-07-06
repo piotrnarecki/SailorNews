@@ -1,3 +1,5 @@
+package pl.piotrnarecki.sailornews.models
+
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 

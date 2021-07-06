@@ -1,6 +1,6 @@
 package pl.piotrnarecki.sailornews.db
 
-import Article
+import pl.piotrnarecki.sailornews.models.Article
 import androidx.lifecycle.LiveData
 import androidx.room.*
 
@@ -21,6 +21,6 @@ interface ArticleDao {
 
     @Delete
     suspend fun deleteArticle(article: Article)
-    
+
 
 }
