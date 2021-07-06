@@ -17,7 +17,7 @@
     <item
         android:id="@+id/searchNewsFragement"
         android:icon="@drawable/ic_all_news"
-        android:title="Seatch News" />
+        android:title="Search News" />
 
 
 </menu>

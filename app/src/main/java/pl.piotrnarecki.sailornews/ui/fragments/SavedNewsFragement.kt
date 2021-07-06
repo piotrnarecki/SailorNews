@@ -1,4 +1,4 @@
-package pl.piotrnarecki.sailornews.ui.fragments
+package ui.fragments
 
 import androidx.fragment.app.Fragment
 import pl.piotrnarecki.sailornews.R

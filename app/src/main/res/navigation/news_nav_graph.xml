@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/breakingNewsFragement"
-        android:name="pl.piotrnarecki.sailornews.ui.fragments.BreakingNewsFragement"
+        android:name="ui.fragments.BreakingNewsFragement"
         android:label="BreakingNewsFragement" >
         <action
             android:id="@+id/action_breakingNewsFragement_to_articleFragement"
@@ -20,7 +20,7 @@
     </fragment>
     <fragment
         android:id="@+id/searchNewsFragement"
-        android:name="pl.piotrnarecki.sailornews.ui.fragments.SearchNewsFragement"
+        android:name="ui.fragments.SearchNewsFragement"
         android:label="SearchNewsFragement" >
         <action
             android:id="@+id/action_searchNewsFragement_to_articleFragement"
@@ -33,7 +33,7 @@
     </fragment>
     <fragment
         android:id="@+id/savedNewsFragement"
-        android:name="pl.piotrnarecki.sailornews.ui.fragments.SavedNewsFragement"
+        android:name="ui.fragments.SavedNewsFragement"
         android:label="SavedNewsFragement" >
         <action
             android:id="@+id/action_savedNewsFragement_to_articleFragement"
@@ -46,6 +46,6 @@
     </fragment>
     <fragment
         android:id="@+id/articleFragement"
-        android:name="pl.piotrnarecki.sailornews.ui.fragments.ArticleFragement"
+        android:name="ui.fragments.ArticleFragement"
         android:label="ArticleFragement" />
 </navigation>
